@@ -46,7 +46,7 @@ if __name__ == '__main__':
     else:
         system_to_run = "BAD"
     # Set to True when you're ready to run your CRF on the test set to produce the final output
-    run_on_test = True
+    run_on_test = False
     # Train our model
     if system_to_run == "BAD":
         bad_model = train_bad_ner_model(train)
